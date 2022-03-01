@@ -18,11 +18,10 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button button;
     TextView textView;
-    String username,lusername;
+    String username, lusername;
     SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
     String SHARED_PREFS = "shared prefs";
-
+    SharedPreferences.Editor editor;
 
 
     @Override
